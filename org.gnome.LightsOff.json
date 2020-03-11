@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.LightsOff",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "lightsoff",
     "finish-args": [
@@ -19,8 +19,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://gitlab.gnome.org/GNOME/lightsoff.git",
-                "tag": "3.34.0",
-                "commit": "146d937a11f7188d5fcb71fb8f50c871a5a7b359"
+                "tag": "3.36.0",
+                "commit": "064870314de4c5ae5929a2476d6211ee48c5c0ce"
             }]
         }
     ]
