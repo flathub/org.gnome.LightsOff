@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.LightsOff",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "3.38",
     "sdk": "org.gnome.Sdk",
     "command": "lightsoff",
     "finish-args": [
@@ -18,8 +18,8 @@
             "buildsystem": "meson",
             "sources": [{
                 "type": "archive",
-                "url": "https://download.gnome.org/sources/lightsoff/3.36/lightsoff-3.36.0.tar.xz",
-                "sha256": "430dc834c1785c223f04d37cbabe003b098de9d056a198acba152f1cd9756a63"
+                "url": "https://download.gnome.org/sources/lightsoff/3.38/lightsoff-3.38.0.tar.xz",
+                "sha256": "d0b6ebd7172e5a948e49d6b5813aaa1473fd664f2c39043cb861fab011b7f636"
             }]
         }
     ]
