@@ -1,12 +1,13 @@
 {
     "app-id": "org.gnome.LightsOff",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "lightsoff",
     "finish-args": [
         /* X11 + XShm access */
-        "--share=ipc", "--socket=fallback-x11",
+        "--share=ipc",
+        "--socket=fallback-x11",
         /* Wayland access */
         "--socket=wayland",
         "--device=dri",
@@ -17,10 +18,11 @@
             "name": "lightsoff",
             "buildsystem": "meson",
             "sources": [{
-                "type": "git",
-                "url": "https://gitlab.gnome.org/GNOME/lightsoff.git",
-                "commit": "4deda56edfb3ab0de1b05cd03498541fc37f25c0"
+                "type": "archive",
+                "url": "https://download.gnome.org/sources/lightsoff/46/lightsoff-46.0.tar.xz",
+                "sha256": "672b1532e0645fae02f2837a96d539edcfd4c3ba4f72e591dc73fe479ebb8b92"
             }]
         }
     ]
 }
+
